@@ -1,0 +1,150 @@
+/* タブレット向けレイアウト */
+@media(max-width: 1000px) {
+
+    #toggle-button {
+        display: none;
+
+    }
+
+    .header-list {
+        margin: 0px 10px;
+    }
+
+    li {
+        padding: 3px 10px;
+    }
+
+    a {
+        text-decoration: none;
+        color: black;
+    }
+
+    a:hover {
+        color: blueviolet;
+    }
+
+
+    .container img {
+        width: 100%;
+    }
+
+
+
+    .bkrgba p {
+        padding-top: 70px;
+    }
+
+    span:hover {
+        color: blueviolet;
+    }
+
+    .contact-form {
+        width: inherit;
+        height: 400px;
+    }
+}
+
+/* スマホ向けレイアウト */
+@media(max-width: 680px) {
+    #toggle-button {
+        display: block;
+        position: absolute;
+        top: 10px;
+        right: 30px;
+    }
+
+
+    .toggle-menu {
+        display: none;
+        position: absolute;
+        top: 48px;
+        width: 100%;
+        left: 0;
+
+    }
+
+    .toggle-menu > ul {
+        padding: 0px;
+        
+
+    }
+
+    .toggle-menu li {
+        font-family: 'Fredericka the Great', cursive;
+        background-color: beige;
+        text-align: center;
+        height: 70%;
+        border: 1px solid #fff;
+    }
+
+    .header-container {
+        height: 70ox;
+    }
+
+    .header-logo {
+        float: clear;
+    }
+
+    .header-list {
+        display: none;
+
+    }
+
+    li {width: 100%;
+        border: 1px solid #26b0c9;
+        display: block;
+        background-color: aliceblue;
+    }
+
+    .container img {
+        width: 100%;
+        height: inherit;
+    }
+
+    .contact-form {
+        width: inherit;
+        height: 200px;
+    }
+
+    .bkrgba p {
+        padding-top: 1px;
+        font-size: 10px;
+    }
+
+    .bkrgba h3 {
+        font-size: 15px;
+    }
+
+    span {
+        padding: 5px;
+        font-size: 10px;
+    }
+
+    button {
+        display: block;
+    }
+
+    .news p {
+        font-size: 12px;
+    }
+
+    .biography p {
+        padding: 7px 20px;
+        margin: 0px 10px;
+        font-size: 10px;
+        font-weight: bolder;
+    }
+
+    .profile-head p {
+        font-size: 13px;
+       
+    }
+
+    .Photo-gallery img {
+        padding: 5px 4px;
+    }
+
+    .gallery-footer {
+        border: none;
+    }
+}
