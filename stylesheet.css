@@ -1,0 +1,276 @@
+＠charset "utf-8";
+
+body { margin: 0 auto;
+       text-align: center;
+       max-width: 1200px;
+       min-width: 1200px;
+    
+}
+/* 共通*/
+* {
+    box-sizing: border-box;
+}
+
+
+#toggle-button {
+    display: none;
+
+}
+
+header {
+    height: 70px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 24;
+    width: 100%;
+    background-color: #fff;
+    padding-bottom: 6px;
+}
+
+.header-container {
+    height: 70px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 24;
+    width: 100%;
+    background-color: #fff;
+    padding-bottom: 6px;
+}
+
+
+.header-logo {
+    float: left;
+    padding: 10px 40px
+}
+
+li {
+    list-style: none;
+    float: left;
+    padding: 0px 20px;
+}
+
+.header-list {
+    font-family: 'Fredericka the Great', cursive;
+    font-size: 25px;
+    float: left;
+    list-style: none;
+    padding: 0px 80px;
+    margin-left: 40px;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+
+ul {
+    list-style-type: none;
+    padding-left: 70px;
+}
+
+.navi:hover {
+    color: #6927FF;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: blueviolet;
+}
+
+.footer {
+    margin-top: 40px;
+    border: solid 1px #26b0c9;
+}
+
+.footer-name {
+    font-family: 'Fredericka the Great', cursive;
+    float: right;
+    padding-left: 850px;
+    font-size: 20px;
+    padding: 0px 10px;
+}
+
+/* 共通*/
+
+/* home*/
+.main {
+    height: auto;
+}
+
+.container {
+    max-width: 1600px;
+    text-align: center;
+
+}
+
+.main h3 {font-family: 'Fredericka the Great', cursive;
+     font-size: 40px;
+    margin-top: 50px;
+    padding: 25px 10px 0px 10px
+    
+}
+
+.News h4 p {
+    padding: 15px 0px;
+    margin: 30px;
+
+
+}
+
+
+/* home*/
+
+/* profile */
+.profile {
+    height: 500px;
+}
+
+.container {
+    margin: 0 auto;
+    text-align: center;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.6);
+    padding-top: 50px;
+}
+
+.profile h3 {
+    font-family: 'Fredericka the Great', cursive;
+    color: blueviolet;
+    padding-top: 20px;
+}
+
+.biography {
+    margin: 40px 30px 30px 10px;
+    padding: 5px 10px;
+}
+
+.biography p {
+    font-family: 'Fredericka the Great', cursive;
+    padding: 13px 55px;
+    margin: 0px 10px;
+    font-size: 12px;
+    font-weight: bolder;
+}
+
+}
+
+/* profile */
+
+/* Photo-gallery */
+
+.gallery {
+    height: auto;
+}
+
+.Photo-space h2 {
+    font-family: 'Cabin Sketch', cursive;
+    font-size: 50px;
+    padding: 10px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.Photo-space h4 {
+    font-family: 'Cabin Sketch', cursive;
+    font-size: 30px;
+    padding-bottom: 10px;
+}
+
+
+.gallery-contents {
+    margin: 0 auto;
+    text-align: left;
+    padding: 50px 10px;
+}
+
+
+.Photo-gallery {
+    float: left;
+    padding-bottom: 30px;
+}
+
+.gallery-list {
+    float: left;
+}
+
+img {
+    padding: 2px 0px;
+    padding-left: 4px;
+    float: left;
+}
+
+.Photo-space {
+    padding: 60px 0px;
+}
+
+
+.footer-name1{
+    font-family: 'Fredericka the Great', cursive;
+    float: right;
+    font-size: 20px;
+
+}
+
+
+/* Photo-gallery */
+
+/* ccontact */
+.contact-form {
+    margin: 0 auto;
+    text-align: center;
+    background-image: url("..//imges/contact_image.jpg");
+    background-size: cover;
+    position: relative;
+
+}
+
+.bkrgba {
+    height: 100%;
+    background: rgba(255, 255, 255, 0.3);
+}
+
+p {
+    font-weight: bold;
+}
+
+span { font-family: 'Fredericka the Great', cursive;
+    font-size: 30px;
+    color: blue;
+    display: inline-block;
+    margin: 20px;
+    padding: 80px;
+}
+
+span:hover {
+    color: blueviolet;
+}
+
+.bkrgba h3 {
+    font-family: 'Fredericka the Great', cursive;
+    font-size: 40px;
+    padding-top: 70px;
+}
+
+
+
+/* ccontact */
+
+/* NEWS */
+
+.news {
+    height: auto;
+}
+
+.containr {
+    margin: 0 auto;
+    text-align: center;
+    padding: 100px
+}
+
