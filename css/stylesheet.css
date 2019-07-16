@@ -117,26 +117,27 @@ a:hover {
     
 }
 
-.News h4 p {
+.News h4  p{
     padding: 15px 0px;
-    margin: 30px;
+    margin: 0px;
 
 
 }
-
+.News p{
+    font-size: 15px;
+}
 
 /* home*/
 
 /* profile */
 .profile {
-    height: 500px;
+    height: 600px;
 }
 
 .container {
     margin: 0 auto;
     text-align: center;
     height: 100%;
-    background: rgba(255, 255, 255, 0.6);
     padding-top: 50px;
 }
 
@@ -145,6 +146,9 @@ a:hover {
     color: blueviolet;
     padding-top: 20px;
 }
+.profile h4 {
+    font-family: 'Fredericka the Great', cursive;
+    color: blueviolet;}
 
 .biography {
     margin: 40px 30px 30px 10px;
@@ -156,10 +160,8 @@ a:hover {
     padding: 13px 55px;
     margin: 0px 10px;
     font-size: 12px;
-    font-weight: bolder;
 }
 
-}
 
 /* profile */
 
